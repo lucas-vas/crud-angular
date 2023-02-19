@@ -1,0 +1,88 @@
+body{
+    background: url("../../imgs/bg1.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 120vh;
+
+}
+h1 {
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #ff000070;
+
+}
+
+.btn-cadastro{
+    background-color: #003cffda;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.table .thead-light th{
+    background-color: #3c3c3c;
+    color: white;
+}
+div.borda{
+    background-color: rgba(27, 27, 27, 0.795);
+    box-shadow: 0px 0px 20px white;
+    border: 2px solid white;
+}
+tr.dados{
+    background-color: rgba(255, 255, 255, 0.822);
+    font-weight: bold;
+}
+div.bgform{
+    background-color: rgba(27, 27, 27, 0.795);
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 600px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 20px white;
+    border: 2px solid white;
+}
+
+
+button.btn-salvar{
+    background-color: #003cffda;
+    color: white;
+    font-weight: bold;
+}
+button.btn-voltar{
+    font-weight: bold;
+}
+button.btn-atualizar{
+    background-color: #003cffda;
+    color: white;
+    font-weight: bold;
+}
+button.btn-excluir{
+    background-color: #ff0000da;
+    color: white;
+    font-weight: bold;
+}
+.textbox{
+    font-weight: bold;
+}
+.texthead{
+    font-weight: bold;
+    font-size: 18px;
+}
+.titleform{
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    scale: 1.075;
+}
